@@ -225,15 +225,15 @@ nav ul li a:hover {
 .content-menu {
   max-width: 1000px;
   margin: auto;
-	padding:30px 20px 0px 20px;
+	padding:0px 20px 0px 20px;
 }
 .content-menu .grid-group-image img {
   width: 100%;
   display: block;
 }
-
-.menu-title {
-	padding-top:40px;
+.content-menu .menu-title
+{
+	padding-top:70px;
 }
 .content-menu .section-title {
   text-transform: uppercase;
@@ -316,6 +316,73 @@ nav ul li a:hover {
     background: #083A3D;
 }
 
+.content-about .about-text{
+    padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	padding-bottom: 50px;
+
+}
+
+.content-about .about-text h1{
+   font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0;
+	padding-top:70px;
+	font-weight: 400;
+	color: #083A3D;
+}
+
+.content-about .about-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+	font-weight: 400;
+    text-align: left;
+    line-height: 22px;
+	padding-bottom: 50px;
+}
+
+.content-about .about-text .about-btn{
+    background-color: black;
+    padding: 5px 25px 5px 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+	margin-top: 40px;
+}
+
+.content-about .about-text .about-btn:hover{
+    background-color: #c87532;
+}
+
+.content-about .about-text {width:50%; float:left;}
+
+.content-about .about-kiki-image { width:50%; float:left;}
+
+.content-about .about-kiki-image img{
+	padding:0;
+	width:100%;
+    object-fit:cover;
+    filter: grayscale(100%);
+	position: relative;
+	display: inline-block;
+}
+
+.content-about .about-kiki-image img:hover{
+    filter: grayscale(30%);
+    transition: ease-in-out 0.5s;
+}
+
+@media (max-width: 833px) {
+	.content-about .about-text {width:100%;}
+	.content-about .about-kiki-image  {
+		width:100%;
+	}
+}
+
 @media (min-width: 569px) {
   .content-menu .box-info {
     overflow: hidden;
@@ -340,6 +407,7 @@ nav ul li a:hover {
             margin: auto;
             display: block;
         }
+		
 
         .content-header-logo{
             padding-top:50px;
@@ -362,6 +430,15 @@ nav ul li a:hover {
         .content-subscribe .form-inline button {
             width:100%;
         }
+		
+		.content-about .about-text h1{ padding-top:0;}
+		
+		.content-menu {
+	padding-top: 0px;
+}
+		.content-menu .menu-title {
+			padding-top:0px;
+		}
         .content-testimonials {
             padding:0;
         }
