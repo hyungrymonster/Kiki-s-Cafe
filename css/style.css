@@ -82,11 +82,11 @@ nav ul li a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
-.mobile-wrapper a.icon {
+.mobile-wrapper a.mobileicon {
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 12px;
 
 }
 
@@ -233,14 +233,13 @@ nav ul li a:hover {
 }
 
 .menu-title {
-	padding-top:20px;
+	padding-top:40px;
 }
 .content-menu .section-title {
   text-transform: uppercase;
   color: #083A3D;
-  border-bottom: 1px solid #222;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
+	font-weight: 400;
+	font-size:30px;
 	font-family: 'Montserrat', sans-serif;
 }
 
