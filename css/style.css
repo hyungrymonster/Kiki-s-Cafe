@@ -1,0 +1,263 @@
+@charset "UTF-8";
+* {box-sizing:border-box;}
+html,body,div {margin:0; padding:0;}
+
+nav {
+    float:left;
+    color:#fff;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    display: block;
+    position: fixed;
+    background-color:#1B3C40;
+    width:100%;
+    z-index: 1;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color:#F0C487;
+    padding:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+}
+
+nav ul li a:hover {
+    color:#fff;
+}
+
+
+.wrapper {
+    background-color:#fff;
+}
+
+.logoimg {
+    width:100%;
+    max-width: 30px;
+    vertical-align: middle;
+}
+
+
+.mobile-wrapper .logobg {
+    background-color:#1d3d41;
+    padding:10px;
+}
+
+.mobile-wrapper {
+    overflow: hidden;
+    background-color:#000;
+    position: relative;
+}
+
+.mobile-wrapper img {
+    width:100%;
+    max-width: 20px;
+}
+
+.mobile-wrapper #mobileNavMenus {
+    display: none;
+}
+
+
+.mobile-wrapper a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    color:#F0C487;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-wrapper a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.mobile-wrapper .active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.content-header-bg{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-header-logo{
+    padding-top:180px;
+    padding-bottom:150px;
+}
+
+.content-header-logo .kikiimg {
+    width:100%;
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
+
+.content-special-offer {
+    background-color:#fff;
+}
+
+.content-special-offer .row {
+    width:100%;
+    padding:0;
+}
+
+
+.columnskiki {width:100% !important;
+    padding:0!important;}
+
+    .content-subscribe {
+        background-color:#c87532;
+        padding:20px;
+    }
+    .content-subscribe .form-text-column {
+        float: left;
+        text-align: right;
+        width: 20%;
+        padding-right:5px;
+    }
+
+    .content-subscribe .form-column {
+        float: left;
+        width: 40%;
+    }
+
+    .content-subscribe .form-inline {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    .content-subscribe .form-inline label {
+        margin: 5px 10px 5px 0px;
+        font-family: 'Montserrat', sans-serif;
+        color:#fff;
+        font-size:14px;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .content-subscribe .form-inline input {
+        vertical-align: middle;
+        margin: 5px 10px 5px 0;
+        padding: 10px;
+        width:98%;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .content-subscribe .form-inline button {
+        padding: 10px 20px;
+        background-color: #1d3d41;
+        color: white;
+        cursor: pointer;
+        width:80%;
+        border-radius: 0;
+        border: 2px solid #fff;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .content-subscribe .form-inline button:hover {
+        background-color: royalblue;
+    }
+    .content-testimonials {
+        background-color:#fff;
+        margin: 0 auto;
+        padding-top:50px;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .content-testimonials .cards-center {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 5px 0;
+    }
+
+    .content-testimonials .card{
+        display: inline-block;
+        width: 100%;
+        max-width: 350px;
+        padding: 20px;
+        margin: 15px;
+        border: 1px solid black;
+    }
+
+
+    .content-footer {
+        background-color:#1d3d41;
+        padding:15px;
+        margin:auto;
+        display: block;
+        text-align: center;
+        color:#f0c584;
+    }
+
+    .content-footer .fab {
+        font-size:20px;
+        padding:10px;
+    }
+
+
+    @media (min-width:490px) {
+        .mobile-wrapper {display: none;}
+    }
+
+    @media (max-width:490px) {
+        nav ul li {
+            display:none;
+        }
+        .content-header-logo .kikiimg {
+            width:100%;
+            max-width: 250px;
+            margin: auto;
+            display: block;
+        }
+
+        .content-header-logo{
+            padding-top:50px;
+            padding-bottom:60px;
+        }
+
+        .content-subscribe .form-text-column {
+            float: left;
+            text-align: left;
+            width: 100%;
+        }
+
+        .content-subscribe .form-column {
+            float: left;
+            width: 100%;
+        }
+        .content-subscribe .form-inline input {
+            width:100%;
+        }
+        .content-subscribe .form-inline button {
+            width:100%;
+        }
+        .content-testimonials {
+            padding:0;
+        }
+    }
