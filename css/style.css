@@ -234,9 +234,13 @@ nav ul li a:hover {
   width: 100%;
   display: block;
 }
+
+.content-menu h4 {
+	font-weight: 400;
+}
 .content-menu hr {
 	height:1px; color: #eee; margin: 50px 0px;}
-}
+
 .content-menu .section-title {
   text-transform: uppercase;
   color: #083A3D;
