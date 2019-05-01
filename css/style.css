@@ -227,13 +227,15 @@ nav ul li a:hover {
   margin: auto;
 	padding:0px 20px 0px 20px;
 }
+.paddingTop{
+	padding-top:70px;
+}
 .content-menu .grid-group-image img {
   width: 100%;
   display: block;
 }
-.content-menu .menu-title
-{
-	padding-top:70px;
+.content-menu hr {
+	height:1px; color: #eee; margin: 50px 0px;}
 }
 .content-menu .section-title {
   text-transform: uppercase;
@@ -318,8 +320,8 @@ nav ul li a:hover {
 
 .content-about .about-text{
     padding-top: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
 	box-sizing: border-box;
 	padding-bottom: 50px;
 
@@ -375,6 +377,106 @@ nav ul li a:hover {
     filter: grayscale(30%);
     transition: ease-in-out 0.5s;
 }
+
+
+.content-contact {
+  width: 100%;
+  height: 516px;
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content-contact .contact-info {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.contact-info h1 {
+   font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0;
+	padding-top:70px;
+	font-weight: 400;
+	color: #083A3D;
+	padding-bottom:20px;
+}
+
+.content-contact .contact-info p {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-contact .contact-info .det {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.content-contact .contact-info i {
+  float: left;
+  font-size: 18px !important;
+  margin: 0 8px 0 0;
+}
+
+
+.contact-us {
+  width: 100%;
+  height: 516px;;
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-map {
+  width: 75%;
+  height: 516px;
+  display: inline-block;
+}
+
+.contact-info {
+  float: left;
+  width: 25%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+
+.contact-info p {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-info .det {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.contact-info i {
+  float: left;
+  font-size: 18px !important;
+  margin: 0 8px 0 0;
+}
+
+@media only screen and (max-width: 940px) {
+  .contact-us {
+    height: 516px;
+   
+  }
+  .contact-map {
+    width: 100%;
+    height: 250px;
+	  overflow:hidden;
+  }
+  .contact-info {
+    width: 100%;
+  }
+}
+
+
+
 
 @media (max-width: 833px) {
 	.content-about .about-text {width:100%;}

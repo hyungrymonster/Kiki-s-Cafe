@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Kiki's Cafe</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <!-- Page Style & Java -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" charset="utf-8"></script>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Owl Carousel Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+
+    <!-- Owl Carousel Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Carousel javascript -->
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/vendors/highlight.js"></script>
+    <script src="assets/js/app.js"></script>
+
+
+</head>
+<body>
+    <!---- Desktop Navigation ---->
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+				<li><a href="index.html"><img src="images/KikiLogo.png" alt="Kiki Icon" class="logoimg"></a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <!---- Desktop Navigation Ends ---->
+
+    <!---- Mobile Navigation ---->
+    <div class="mobile-wrapper bg">
+        <div class="logobg">
+			<a href="index.html"><img src="images/KikiLogo.png" alt="Kiki Icon"></a>
+        </div>
+        <div id="mobileNavMenus">
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="mobileicon" onclick="mobileNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!---- Mobile Navigation Ends ---->
+
+    <!---- Content contact ---->
+   <div class="contact-us">
+	   <div class="contact-info">
+    <h1>CONTACT US</h1>
+    <div class="det"><i class="fa fa-map-marker"></i> 160 Jay St. Schenectady, NY 12305</div>
+    <div class="det"><i class="fa fa-phone"></i> 518-337-0320</div>
+    <div class="det"><i class="fas fa-envelope"></i> kikiscafe@gmail.com</div>
+  </div>
+  <div class="contact-map"><script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB6tc4p9-glr-RDFE9Zm8EzTgSXUoh-7DM"></script><div style="overflow:hidden;height:516px;width:100%;"><div id='gmap_canvas' style="height:516px;width:100%;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://www.add-map.net/'>add map to website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=17c236204dc1f6613e68aba3b065224358ed06e4'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(42.813138,-73.94088399999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(42.813138,-73.94088399999998)});infowindow = new google.maps.InfoWindow({content:'<strong>Kiki\'s Cafe</strong><br>160 Jay St<br>12305 Schenectady<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></div>
+	 
+</div>
+    <!---- Content Header Ends ---->
+
+    <!---- Content Mailing List Ends ---->
+
+    <!---- Content Footer ---->
+    <div class="content-footer">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+    </div>
+    <!---- Content Footer Ends---->
+
+
+</body>
+</html>
