@@ -1,13 +1,6 @@
 
 $(document).ready(function(){
-    function mobileNav() {
-      var x = document.getElementById("mobileNavMenus");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
+  
     var owl = $("#testimonials-slider");
     owl.owlCarousel({
         loop:true,
@@ -33,3 +26,13 @@ $(document).ready(function(){
         owl.trigger('prev.owl.carousel');
     });
 });
+
+
+  function mobileNav() {
+      var x = document.getElementById("mobileNavMenus");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
