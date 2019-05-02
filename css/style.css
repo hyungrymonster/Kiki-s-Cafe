@@ -82,6 +82,9 @@ nav ul li a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+.mobile-wrapper a:hover {
+	    color:#fff;
+}
 .mobile-wrapper a.mobileicon {
     display: block;
     position: absolute;
@@ -581,7 +584,9 @@ nav ul li a:hover {
         }
 		
 		.content-about .about-text h1{ padding-top:0;}
-		
+		.contact-info h1  {
+			padding-top:0;
+		}
 		.content-menu {
 	padding-top: 0px;
 }
